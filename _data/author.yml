@@ -17,7 +17,11 @@ contact:
     url: https://github.com/phirebase
   - title: twitter
     url: https://x.com/phirebase
-  - title: dev
+  - title: pinterest
+    url: https://pinterest.com/phirebase   
+  - title: youtube
+    url: https://youtube.com/phirebase  
+  - title: web
     url: https://phirebase.com
   - title: email
     url: mailto:hello@phirebase.com
