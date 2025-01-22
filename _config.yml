@@ -1,10 +1,10 @@
-title: Jekyll Serial Programmer
+title: David Klhufek
 markdown: kramdown
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: David Klhufek
+  email: hello@phirebase.com
 
 plugins:
   - jemoji
