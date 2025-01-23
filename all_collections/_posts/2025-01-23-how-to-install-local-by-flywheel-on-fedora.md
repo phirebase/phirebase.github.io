@@ -8,7 +8,7 @@ categories: [fedora, wordpress, development, tools]
 
 Local by Flywheel is a fantastic tool for local WordPress development, and the best part is that it now provides a native `.rpm` package for Linux users. Here’s how you can quickly get it installed and running on Fedora.
 
-![Local by Flywheel](/screenshots/local.png)
+![Local by Flywheel](/screenshots/local-by-flywheel.png)
 
 ---
 
