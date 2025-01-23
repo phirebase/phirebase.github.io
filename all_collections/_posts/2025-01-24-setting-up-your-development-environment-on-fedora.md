@@ -96,6 +96,4 @@ Git is an essential tool for version control. Let’s set it up on Fedora:
 
 With Visual Studio Code and Git configured on Fedora, your development environment is ready to handle any project. These tools provide a solid foundation for productivity and version control, making Fedora an excellent choice for developers.
 
-If you have any questions or want more tips, feel free to reach out in the comments!
-
 Happy coding! 🚀
