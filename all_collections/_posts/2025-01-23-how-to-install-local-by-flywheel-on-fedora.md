@@ -2,7 +2,7 @@
 layout: post
 title: "How to Install Local by Flywheel on Fedora"
 date: 2025-01-23
-categories: [fedora, wordpress, development, tools]
+categories: [fedora, development, wordpress, tools]
 
 ---
 
