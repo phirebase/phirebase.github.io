@@ -53,6 +53,7 @@ If you encounter the following error while starting a site:
 Uh-oh! Unable to start site.
 Error: Command failed: ... Can't connect to local MySQL server through socket ...
 ```
+![Local by Flywheel](/screenshots/error-23-40-00.png)  
 
 This happens because of a missing dependency. To resolve this issue, install the libxcrypt-compat package:
 
