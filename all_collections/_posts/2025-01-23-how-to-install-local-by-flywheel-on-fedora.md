@@ -14,9 +14,9 @@ Local by Flywheel is a fantastic tool for local WordPress development, and the b
 
 ### Step 1: Download the RPM Package
 
-The Local team offers a prebuilt `.rpm` package for Linux users. You can download it directly from the official website or using the link below:
+The Local team offers a prebuilt `.rpm` package for Linux users. 
 
-[Download Local RPM Package](https://cdn.localwp.com/releases-stable/9.1.1+6738/local-9.1.1-linux.rpm)
+Visit the [Local by Flywheel Releases page](https://localwp.com/releases/) to download the latest `.rpm` package for Fedora Linux. This ensures you always have the most up-to-date version.
 
 ---
 
@@ -25,8 +25,9 @@ The Local team offers a prebuilt `.rpm` package for Linux users. You can downloa
 Once the download is complete, open your terminal, navigate to the folder where the file is located, and install it using `dnf`:
 
 ```bash
-sudo dnf install ./local-9.1.1-linux.rpm
+sudo dnf install ./local-x.x.x-linux.rpm
 ```
+Replace local-x.x.x.rpm with the actual file name you downloaded.
 
 #### Step 3: Launch Local by Flywheel
 
@@ -41,6 +42,7 @@ After the installation is complete, Local by Flywheel may not launch directly us
     The output will typically show something like /usr/bin/local.
 2. **Create an Alias:**
     To ensure the local command launches LocalWP, create an alias. Add the following line to your ~/.bashrc file:
+
     ```bash
     echo 'alias local="/usr/bin/local"' >> ~/.bashrc
     ```
@@ -52,12 +54,13 @@ After the installation is complete, Local by Flywheel may not launch directly us
     ```
 4. **Launch Local by Flywheel:**
     After creating the alias, you can now use the local command to start LocalWP from the terminal:
+    
     ```bash
     local
     ```
 
 ### Step 4: Common Troubleshooting
-Missing Dependencies
+Missing Dependencies:
 If Local doesn’t start, you may need to install a few missing dependencies. 
 
 ```bash
