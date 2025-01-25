@@ -28,12 +28,33 @@ Once the download is complete, open your terminal, navigate to the folder where 
 sudo dnf install ./local-9.1.1-linux.rpm
 ```
 
-## Step 3: Launch Local by Flywheel
-After the installation is complete, you can start Local by Flywheel either from your application menu or by running:
+#### Step 3: Launch Local by Flywheel
 
-```bash
-local
-```
+After the installation is complete, Local by Flywheel may not launch directly using the `local` command due to conflicts with the default system behavior. To resolve this, you can create an alias for `local` in your shell configuration.
+
+1. **Locate the Installed Binary**:  
+   Use the `which` command to find the path of the Local binary:
+
+   ```bash
+   which local
+   ```
+    The output will typically show something like /usr/bin/local.
+2. **Create an Alias:**
+    To ensure the local command launches LocalWP, create an alias. Add the following line to your ~/.bashrc file:
+    ```bash
+    echo 'alias local="/usr/bin/local"' >> ~/.bashrc
+    ```
+3. **Reload Your Shell Configuration:**
+    Apply the changes by reloading your shell configuration:
+
+    ```bash
+    source ~/.bashrc
+    ```
+4. **Launch Local by Flywheel:**
+    After creating the alias, you can now use the local command to start LocalWP from the terminal:
+    ```bash
+    local
+    ```
 
 ### Step 4: Common Troubleshooting
 Missing Dependencies
@@ -63,7 +84,19 @@ sudo dnf install libxcrypt-compat
 
 After installing the dependency, try starting your site again.
 
-### Step 5: Start Developing!
+### Step 6: Fixing "Open Site Shell" Issue 
+
+On Linux, Local by Flywheel uses `gnome-terminal` to execute the "Open Site Shell" command. If this feature does not work, it is likely because the `gnome-terminal` package is not installed.
+
+1. **Install gnome-terminal**:  
+   Run the following command to install the required terminal emulator:
+
+   ```bash
+   sudo dnf install gnome-terminal
+   ```
+After installing gnome-terminal, try using the "Open Site Shell" feature in Local again. It should now function correctly.
+
+### Step 7: Start Developing!
 Once Local is up and running, you can create new WordPress sites, import existing ones, or configure your environment to your liking. Local offers features like faster site creation, SSL support, and advanced tools for developers.
 
 ## Conclusion
