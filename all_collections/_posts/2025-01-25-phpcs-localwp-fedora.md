@@ -2,7 +2,7 @@
 layout: post
 title: "How to Set Up PHPCS in LocalWP on Fedora Linux"
 date: 2025-01-25
-categories: [fedora, localwp, phpcs, wordpress]
+categories: [fedora, localwp, phpcs, wordpress, tools]
 ---
 
 If you’re developing WordPress plugins or themes and using [LocalWP](https://localwp.com/) for local development on Fedora, you might need to set up [PHP_CodeSniffer (PHPCS)](https://github.com/squizlabs/PHP_CodeSniffer) to ensure compliance with WordPress Coding Standards. This guide will walk you through the setup process step by step.

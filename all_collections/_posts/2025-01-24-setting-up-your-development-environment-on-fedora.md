@@ -2,7 +2,7 @@
 layout: post
 title: "Setting Up Your Development Environment on Fedora Linux: Visual Studio Code and Git"
 date: 2025-01-24
-categories: [fedora, development, tools]
+categories: [fedora, git, development, visual code, tools]
 ---
 
 ## Setting Up Your Development Environment on Fedora

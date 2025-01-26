@@ -26,38 +26,102 @@ LocalWP provides a built-in Site Shell feature, making it effortless to use WP-C
 3. Go to the top-right corner and click **"Open Site Shell"**.
 4. The terminal window will open, automatically navigating to the site's environment with WP-CLI pre-installed.
 
-### Step 2: Basic WP-CLI Commands
+### Step 2: WP-CLI Quick Commands
 
-Once the Site Shell is open, you can run WP-CLI commands. Here are some useful examples:
+A collection of useful WP-CLI commands for managing your WordPress site effectively.
 
-- **Check WordPress version:**
-
+## 1️⃣ WordPress Core Management
+Check WordPress version:
   ```bash
   wp core version
   ```
-
-- **Update WordPress core:**
-
+Update WordPress:
   ```bash
   wp core update
   ```
 
-- **Install and activate a plugin:**
-
+## 2️⃣ Plugin Management
+List installed plugins:
   ```bash
-  wp plugin install <plugin-slug> --activate
+  wp plugin list
+  ```
+Update all plugins:
+  ```bash
+  wp plugin update --all
+  ```
+Install and activate a plugin:
+  ```bash
+  wp plugin install [plugin-name] --activate
   ```
 
-- **List all installed themes:**
-
+## 3️⃣ Theme Management
+List installed themes:
   ```bash
   wp theme list
   ```
-
-- **Search and replace in the database:**
-
+Activate a theme:
   ```bash
-  wp search-replace 'http://example.com' 'https://example.com'
+  wp theme activate [theme-name]
+  ```
+Check inactive themes:
+  ```bash
+  wp theme list --status=inactive
+  ```
+
+## 4️⃣ User Management
+List all users:
+  ```bash
+  wp user list
+  ```
+Create a new user:
+  ```bash
+  wp user create [username] [email] --role=[role]
+  ```
+Reset a user’s password:
+  ```bash
+  wp user update [username] --user_pass=[new-password]
+  ```
+
+## 5️⃣ Database Management
+Export the database:
+  ```bash
+  wp db export [filename].sql
+  ```
+Import a database:
+  ```bash
+  wp db import [filename].sql
+  ```
+Optimize the database:
+  ```bash
+  wp db optimize
+  ```
+
+## 6️⃣ Debugging and Testing
+Check site status:
+  ```bash
+  wp site status
+  ```
+Enable debugging:
+  ```bash
+  wp config set WP_DEBUG true
+  ```
+List scheduled Cron jobs:
+  ```bash
+  wp cron event list
+  ```
+
+## 7️⃣ Developer Tools
+Generate a custom post type
+  ```bash
+  wp scaffold post-type [post-type-name]
+  ```
+Generate a shortcode:
+  ```bash
+  wp scaffold shortcode [shortcode-name]
+  ```
+Generate a new plugin:
+  ```bash
+  wp scaffold plugin [plugin-name]
   ```
 
 For a full list of available commands, type:
