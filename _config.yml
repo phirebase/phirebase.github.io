@@ -6,6 +6,8 @@ author:
   name: David Klhufek
   email: hello@phirebase.com
 
+url: "https://phirebase.github.io/" 
+
 plugins:
   - jemoji
   - jekyll-seo-tag
