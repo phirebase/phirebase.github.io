@@ -129,4 +129,4 @@ With Fedora running in VirtualBox, you now have a powerful and secure environmen
 
 ---
 
-Stay tuned, and happy exploring!
+Stay tuned, and happy designing! 🚀
