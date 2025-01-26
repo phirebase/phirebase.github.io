@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using WP-CLI in Site Shell with LocalWP on Fedora
+title: Using WP-CLI in Site Shell with LocalWP on Fedora Linux
 date: 2025-01-26
 categories: [fedora, development, wordpress, tools]
 ---

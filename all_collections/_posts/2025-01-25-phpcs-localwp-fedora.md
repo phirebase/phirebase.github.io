@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Set Up PHPCS in LocalWP on Fedora"
+title: "How to Set Up PHPCS in LocalWP on Fedora Linux"
 date: 2025-01-25
 categories: [fedora, localwp, phpcs, wordpress]
 ---
