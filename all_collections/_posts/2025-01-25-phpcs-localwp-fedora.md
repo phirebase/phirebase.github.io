@@ -66,14 +66,14 @@ Navigate to your project directory within the LocalWP shell.
 Use the `phpcs` command to analyze your code:
 
 ```bash
-phpcs --standard=WordPress /path/to/your/file.php
+phpcs --standard=WordPress ./path/to/your/file.php
 ```
 
 ### 2️⃣ Optional: Automatic Fixes with PHPCBF
 To fix simple coding standard issues automatically, use:
 
 ```bash
-phpcbf --standard=WordPress /path/to/your/file.php
+phpcbf --standard=WordPress ./path/to/your/file.php
 ```
 
 This will scan/repair your code for WordPress Coding Standards violations.

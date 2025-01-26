@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Using WP-CLI in Site Shell with LocalWP
+title: Using WP-CLI in Site Shell with LocalWP on Fedora
 date: 2025-01-26
-categories: [WordPress, Development, Tools]
+categories: [fedora, development, wordpress, tools]
 ---
 
 WP-CLI is a powerful command-line tool for managing WordPress sites. If you're using LocalWP for your local WordPress development, you can leverage WP-CLI directly within the Site Shell. This guide will show you how to make the most of WP-CLI in LocalWP.
