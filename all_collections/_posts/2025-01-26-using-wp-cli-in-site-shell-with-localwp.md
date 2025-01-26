@@ -1,11 +1,8 @@
 ---
+layout: post
 title: Using WP-CLI in Site Shell with LocalWP
-date: '2025-01-26'
-categories:
-- jekyll
-- jekyll-admin
-- setup
-- themes
+date: 2025-01-26
+categories: [WordPress, Development, Tools]
 ---
 
 WP-CLI is a powerful command-line tool for managing WordPress sites. If you're using LocalWP for your local WordPress development, you can leverage WP-CLI directly within the Site Shell. This guide will show you how to make the most of WP-CLI in LocalWP.
@@ -123,6 +120,5 @@ Using WP-CLI in LocalWP's Site Shell can significantly speed up your WordPress d
 ### Additional Resources
 
 - [WP-CLI Documentation](https://make.wordpress.org/cli/handbook/)
-
 
 Happy coding! 🚀

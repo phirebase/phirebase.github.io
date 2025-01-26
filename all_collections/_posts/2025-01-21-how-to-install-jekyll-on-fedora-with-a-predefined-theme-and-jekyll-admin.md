@@ -1,6 +1,7 @@
 ---
+layout: post
 title: How to Install Jekyll on Fedora with a Predefined Theme and Jekyll Admin
-date: 2025-01-26
+date: 2025-01-21
 categories: [jekyll, themes, setup, jekyll-admin]
 ---
 
