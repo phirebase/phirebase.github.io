@@ -19,7 +19,7 @@ Before you start, ensure you have the following:
 - WP-CLI for managing WordPress via the command line
 - A local WordPress environment (LocalWP, LAMP stack, or Docker)
 
-## Step 1: Install Required Packages
+## Step 1️⃣: Install Required Packages
 
 Start by installing the necessary dependencies:
 
@@ -39,7 +39,7 @@ Secure MySQL installation:
 sudo mysql_secure_installation
 ```
 
-## Step 2: Install WP-CLI
+## Step 2️⃣: Install WP-CLI
 
 WP-CLI is a powerful tool for managing WordPress from the terminal.
 
@@ -55,7 +55,7 @@ Verify installation:
 wp --info
 ```
 
-## Step 3: Set Up a Local WordPress Environment
+## Step 3️⃣: Set Up a Local WordPress Environment
 
 There are multiple ways to set up a local WordPress environment on Fedora. The two most common methods are using LocalWP or a LAMP stack.
 
@@ -77,7 +77,7 @@ sudo chown -R apache:apache mysite
 
 Configure Apache and MySQL accordingly.
 
-## Step 4: Create a WordPress Plugin
+## Step 4️⃣: Create a WordPress Plugin
 
 Navigate to the WordPress plugin directory:
 
@@ -114,7 +114,7 @@ Activate the plugin:
 wp plugin activate my-plugin
 ```
 
-## Step 5: Debugging and Testing
+## Step 5️⃣: Debugging and Testing
 
 Enable debugging in `wp-config.php`:
 
@@ -137,7 +137,7 @@ Use WP-CLI to check for errors:
 wp plugin verify-checksums my-plugin
 ```
 
-## Step 6: Automating Development with Composer and PHPCS
+## Step 6️⃣: Automating Development with Composer and PHPCS
 
 Install Composer:
 

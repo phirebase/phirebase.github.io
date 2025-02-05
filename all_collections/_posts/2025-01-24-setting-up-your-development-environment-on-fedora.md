@@ -11,7 +11,7 @@ Fedora Linux is a powerful operating system for developers, offering flexibility
 
 ---
 
-### Step 1: Install Visual Studio Code
+### Step 1️⃣: Install Visual Studio Code
 
 Visual Studio Code (VS Code) is a lightweight and powerful code editor popular among developers. To install it on Fedora or other RHEL-based distributions like CentOS, follow these steps:
 
@@ -48,7 +48,7 @@ Visual Studio Code (VS Code) is a lightweight and powerful code editor popular a
 
 ---
 
-### Step 2: Set Up Git
+### Step 2️⃣: Set Up Git
 
 Git is an essential tool for version control. Let’s set it up on Fedora:
 
