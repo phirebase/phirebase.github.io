@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Developing and Testing WordPress Plugins on Fedora Linux"
+published: false
 date: 2025-02-04
 categories: [development, fedora, wordpress, plugins, tools]
 ---
