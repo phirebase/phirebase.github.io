@@ -121,53 +121,7 @@ Update WordPress core, themes, and plugins:
 wp core update
 wp plugin update --all
 wp theme update --all
-```
-
-## Docker for WordPress Development
-
-### Install Docker and Docker Compose
-
-```sh
-sudo dnf install -y docker-ce docker-ce-cli containerd.io
-sudo systemctl start docker
-sudo systemctl enable docker
-sudo dnf install -y docker-compose
-```
-
-### Set Up a WordPress Environment with Docker
-
-```sh
-mkdir wordpress-docker && cd wordpress-docker
-```
-
-Create `docker-compose.yml`:
-
-```yaml
-version: '3.8'
-services:
-  wordpress:
-    image: wordpress:latest
-    ports:
-      - "8000:80"
-    environment:
-      WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: wpuser
-      WORDPRESS_DB_PASSWORD: wppassword
-      WORDPRESS_DB_NAME: wpdatabase
-  db:
-    image: mysql:5.7
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: wpdatabase
-      MYSQL_USER: wpuser
-      MYSQL_PASSWORD: wppassword
-```
-
-Start the containers:
-
-```sh
-docker-compose up -d
-```
+```  
 
 ## Debugging and Logs
 
