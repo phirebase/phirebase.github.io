@@ -101,7 +101,7 @@ Jekyll Admin provides an easy-to-use web interface for managing your Jekyll site
 4. **Access the Admin Interface**  
    Open your browser and navigate to:
 
-   ```
+   ```bash
    http://localhost:4000/admin
    ```
 
