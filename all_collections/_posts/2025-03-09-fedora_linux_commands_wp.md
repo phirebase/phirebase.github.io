@@ -13,6 +13,7 @@ For WordPress developers using Fedora Linux, knowing essential Linux commands ca
 ## System Management Commands
 
 ### Update and Upgrade System
+
 Ensure your system is up to date:
 
 ```sh
