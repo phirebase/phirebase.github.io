@@ -1,8 +1,8 @@
 ---
 layout: post
-title: How to Install Jekyll on Fedora Linux
-date: 2025-01-21
-categories: [fedora, jekyll, jekyll-admin, themes, tools]
+title: "How to Install Jekyll on Fedora Linux"
+date: 2025-01-23
+categories: [fedora, jekyll, jekyll-admin, thems, tools]
 ---
 
 Setting up Jekyll on Fedora is straightforward. This guide will walk you through the process of installing Jekyll, using a predefined theme, and setting up Jekyll Admin for managing your site more easily.
@@ -102,7 +102,7 @@ Jekyll Admin provides an easy-to-use web interface for managing your Jekyll site
    Open your browser and navigate to:
 
    ```bash
-   http://localhost:4000/admin
+   http://127.0.0.1:4000/admin
    ```
 
    From here, you can manage posts, pages, data files, and more through the Jekyll Admin dashboard.
