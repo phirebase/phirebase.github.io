@@ -7,5 +7,4 @@ gem 'jekyll-sitemap'
 gem 'jekyll-feed'
 gem 'webrick', '~> 1.7'
 gem 'rack', '~> 2.2'
-gem 'csv'
-gem "jekyll-admin"
+gem 'jekyll-admin', '~> 0.11.1'
