@@ -1,0 +1,29 @@
+title: David Klhufek
+markdown: kramdown
+
+# for atom feed
+author:
+  name: David Klhufek
+  email: hello@phirebase.com
+
+url: "https://phirebase.github.io/" 
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-admin
+
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: "all_colections/_posts"
+    values:
+      layout: "post"
+      permalink: /posts/:title/
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
