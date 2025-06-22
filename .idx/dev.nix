@@ -7,6 +7,12 @@
   # Use https://search.nixos.org/packages to find packages
   packages = [
     # pkgs.go
+    pkgs.ruby_3_3
+    pkgs.bundler
+    pkgs.gcc
+    pkgs.gnumake
+    pkgs.zlib.dev
+    pkgs.libffi.dev
     # pkgs.python311
     # pkgs.python311Packages.pip
     # pkgs.nodejs_20
